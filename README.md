@@ -11,6 +11,6 @@ StringFormator is the String class of Formator to format all your string content
 #### Features
 
 - Get a resume of the string with `::getResume()`
-- Filters obscenities in your string with `noBadWords()`
+- Filters obscenities in your string with `::noBadWords()`
 - Check if your string has no forbidden char with `::checkForChar()`
 - Delete useless whitepaces in your string with `::cleanString()`
