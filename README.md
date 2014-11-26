@@ -6,10 +6,10 @@ Take a look at all classes description to see what it is possible to do with tha
 
 # StringFormator
 
-StringFormator is the String class of Formator to format all your string content.`
+StringFormator is the String class of Formator to format all your string content.
 
 #### Features
 
     - Get a resume of the string with `::getResume()`
     - Check if your string has no forbidden char with `::checkForChar()`
-    - Delete useless whitespaces in your string with `::cleanString()`
+    - Delete useless whitespaces in your string with `::cleanString()
