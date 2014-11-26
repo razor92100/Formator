@@ -13,3 +13,6 @@ StringFormator is the String class of Formator to format all your string content
     - Get a resume of the string with `getResume()`
     - Check if your string has no forbidden char with `checkForChar()`
     - Delete useless whitespaces in your string with `cleanString
+
+The simple following command will install `knp-menu` into your project. It also add a new
+entry in your `composer.json` and update the `composer.lock` as well.
