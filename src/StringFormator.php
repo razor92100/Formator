@@ -43,6 +43,12 @@ class StringFormator
         }
     }
 
+    /**
+     * @param $string
+     * @param $char
+     *
+     * @throws \Exception
+     */
     public static function checkForChar($string, $char)
     {
         if (is_string($string) || is_string($char)) {
@@ -55,6 +61,14 @@ class StringFormator
             throw new \Exception('$string and $char must be a string');
         }
     }
+
+    /**
+     * @param $string
+     *
+     * @return string
+     *
+     * @throws \Exception
+     */
     public static function noBadWords($string)
     {
         if (is_string($string)) {
