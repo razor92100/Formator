@@ -23,7 +23,7 @@ class StringFormator
         'bite', 'bonnasse', 'bordel', 'enculer', 'enculé', 'branler', 'branlette', 'baiser', 'baise',
         'nique', 'niqué', 'niquer', 'bougnoul', 'couille', 'couilles', 'casse-couille', 'casse-couilles',
         'connerie', 'conneries', 'con', 'conne', 'connasse', 'conasse', 'putes', 'chié', 'chiasse', 'chattes',
-        'chatte');
+        'chatte', 'geule', 'tageule', 'ta geule', 'emmerder', 'bitch', 'biatch');
 
     /**
      * @param string $string
