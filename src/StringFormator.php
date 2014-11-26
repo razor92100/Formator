@@ -19,6 +19,12 @@ class StringFormator
      */
     const DEFAULT_LENGTH = 120;
 
+    private static $badWords = array('caca', 'pute', 'salope', 'merde', 'enfoiré', 'enfoire', 'cul',
+        'bite', 'bonnasse', 'bordel', 'enculer', 'enculé', 'branler', 'branlette', 'baiser', 'baise',
+        'nique', 'niqué', 'niquer', 'bougnoul', 'couille', 'couilles', 'casse-couille', 'casse-couilles',
+        'connerie', 'conneries', 'con', 'conne', 'connasse', 'conasse', 'putes', 'chié', 'chiasse', 'chattes',
+        'chatte');
+
     /**
      * @param string $string
      * @param int $length
@@ -49,10 +55,10 @@ class StringFormator
             throw new \Exception('$string and $char must be a string');
         }
     }
-    public static function noBadWords($string, $arrayWords)
+    public static function noBadWords($string)
     {
-        if (is_string($string) || is_array($arrayWords)) {
-            $res = str_replace($arrayWords, '****', $string);
+        if (is_string($string)) {
+            $res = str_replace(self::$badWords, '****', $string);
             return $res;
         }else {
             throw new \Exception('$string must a string and $arrayWords must be an array');

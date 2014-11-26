@@ -10,5 +10,5 @@ require __DIR__.'/vendor/autoload.php';
 
 $filterWords = array('caca', 'pute', 'salope', 'merde');
 
-$string = "Ta mere la pute salope de merde";
-echo \JB\Formator\StringFormator::noBadWords($string, $filterWords);
+$string = "nique ta soeur espece d'enfoiré jte baise moi";
+echo \JB\Formator\StringFormator::noBadWords($string);
