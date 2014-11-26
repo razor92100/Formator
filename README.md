@@ -10,7 +10,7 @@ StringFormator is the String class of Formator to format all your string content
 
 #### Features
 
-- Get a resume of the string with `::getResume()`
-- Filters obscenities in your string with `::noBadWords()`
-- Check if your string has no forbidden char with `::checkForChar()`
-- Delete useless whitepaces in your string with `::cleanString()`
+- Get a resume of the string with `StringValidator::getResume()`
+- Filters obscenities in your string with `StringValidator::noBadWords()`
+- Check if your string has no forbidden char with `StringValidator::checkForChar()`
+- Delete useless whitepaces in your string with `StringValidator::cleanString()`
